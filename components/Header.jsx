@@ -1,14 +1,9 @@
+'use client'
+
 import Link from "next/link"
 import Nav from "./Nav"
 
 const Header = () => {
-
-    const data = [
-        {
-            name: 'contact',
-            path: '',
-        }
-    ]
     return (
         <header className="py-8 xl:py-12 text-white">
             <div className="container mx-auto flex justify-between items-center">
