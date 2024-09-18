@@ -1,8 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Foto from "../assets/FotoNico.png"
+import Foto from "@/public/assets/FotoNico.png"
 import Image from 'next/image'
+import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 const Photo = () => {
     return (
@@ -14,17 +15,19 @@ const Photo = () => {
                     transition: { delay: 1.5, duration: 0.4, ease: 'easeIn' }
                 }}
             >
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{
-                        opacity: 1,
-                        transition: { delay: 2, duration: 0.4, ease: 'easeInOut' }
-                    }}
-                    className='w-[298px] h-[298px] xl:w-[400px] xl:h-[400px] overflow-hidden mix-blend-lighten absolute'>
-                    <Image src={Foto} priority quality={100} fill alt='' className='object-contain rounded-full' />
-                </motion.div>
+                <BackgroundGradient className="rounded-full h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] bg-zinc-900">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{
+                            opacity: 1,
+                            transition: { delay: 2, duration: 0.4, ease: 'easeInOut' }
+                        }}
+                        className='h-[200px] w-[200px] rounded-full overflow-hidden'>
+                        <Image src={Foto} priority quality={100} fill alt='' className='object-contain rounded-full h-full w-ful' />
+                    </motion.div>
+                </BackgroundGradient>
 
-                {/* circle */}
+                {/* circle
                 <motion.svg
                     className='w-[300px] h-[300px] xl:w-[420px] xl:h-[420px]'
                     fill='transparent'
@@ -50,10 +53,10 @@ const Photo = () => {
                             repeatType: 'reverse'
                         }}
                     />
-                </motion.svg>
+                </motion.svg> */}
 
             </motion.div>
-        </div>
+        </div >
     )
 }
 

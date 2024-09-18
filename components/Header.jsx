@@ -7,21 +7,18 @@ import { Button } from "./ui/button"
 
 const Header = () => {
     return (
-        <header className="py-8 xl:py-5 text-white">
+        <header className="py-8 xl:py-5 text-white px-5 sm:px-0">
             <div className="container mx-auto flex justify-between items-center">
                 {/* LOGO */}
                 <Link href='/'>
                     <h1 className="text-4xl font-semibold">
-                        Nicolas <span className="text-accent">.</span>
+                        Nico <span className="text-accent">.</span>
                     </h1>
                 </Link>
 
 
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
-                    <Button href='/contact'>
-                        Hire me
-                    </Button>
                 </div>
 
                 {/* MOBILE NAV */}

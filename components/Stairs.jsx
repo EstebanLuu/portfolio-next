@@ -24,15 +24,14 @@ const Stairs = () => {
         <>
             {[...Array(6)].map((_, index) => {
                 return (
-
                     <motion.div
                         key={index} variants={stairAnimation} initial='initial' animate='animate' exit='exit'
                         transition={{
-                            duration: 0.3,
+                            duration: 0.2,
                             ease: 'easeInOut',
                             delay: reverseIndex(index) * 0.1
                         }}
-                        className="w-full h-full bg-white relative"
+                        className="w-full h-full bg-accent relative"
                     />
                 )
             }

@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet"
-import { CiMenuFries } from 'react-icons/ci'
+import { MdMenu } from "react-icons/md";
 
 const links = [
     {
@@ -33,7 +33,7 @@ const MobileNav = () => {
     return (
         <Sheet>
             <SheetTrigger className="flex justify-center items-center">
-                <CiMenuFries className="text-accent text-[32px] " />
+                <MdMenu   className="text-accent text-[32px] " />
             </SheetTrigger>
             <SheetContent className='flex flex-col'>
                 {/* LOGO */}
