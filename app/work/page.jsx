@@ -6,6 +6,7 @@ import { FaHtml5, FaVuejs, FaJava, FaDatabase } from "react-icons/fa";
 import { SiCss3, SiJavascript, SiSass, SiReact, SiRedux, SiNextdotjs, SiVite, SiNodedotjs, SiExpress, SiNestjs, SiMongodb, SiPostgresql, SiMysql, SiSequelize } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from 'framer-motion'
+import Image from "next/image";
 
 const works = [
   {
@@ -86,9 +87,9 @@ const Work = () => {
                   translateZ="100"
                   className="w-full mt-4 h-50 sm:h-40 overflow-hidden rounded-xl"
                 >
-                  <img
+                  <Image
                     src={work.image}
-                    className=" w-full object-contain rounded-xl  group-hover/card:shadow-xl"
+                    className="w-full object-contain rounded-xl  group-hover/card:shadow-xl"
                     alt="thumbnail"
                   />
                 </CardItem>
