@@ -68,49 +68,51 @@ const Work = () => {
 
         <div className="container content py-5 xl:pb-10 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
           {works.map((work) => (
-            <CardContainer key={work.key} className="inter-var py-0">
-              <CardBody className="relative group/card hover:shadow-2xl hover:shadow-accent/[0.1] bg-[#ffffff0f] border-[#3ebcc031] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
-                <CardItem
-                  translateZ="50"
-                  className="text-xl font-bold text-white"
-                >
-                  {work.title}
-                </CardItem>
-                <CardItem
-                  as="p"
-                  translateZ="60"
-                  className="text-xs max-w-sm mt-2 text-neutral-300"
-                >
-                  {work.description}
-                </CardItem>
-                <CardItem
-                  translateZ="100"
-                  className="w-full mt-4 h-50 sm:h-40 overflow-hidden rounded-xl"
-                >
-                  <Image
-                    src={work.image}
-                    className="w-full object-contain rounded-xl  group-hover/card:shadow-xl"
-                    alt="thumbnail"
-                  />
-                </CardItem>
-                <div className="flex justify-between items-center mt-5">
-                  <CardItem className="flex gap-2" translateZ="60">
-                    {work.technologies.map((icon, idx) => (
-                      <span key={idx} className="text-base text-white shadow-xl">
-                        {icon}
-                      </span>
-                    ))}
+            <div key={work.key}>
+              <CardContainer className="inter-var py-0">
+                <CardBody className="relative group/card hover:shadow-2xl hover:shadow-accent/[0.1] bg-[#ffffff0f] border-[#3ebcc031] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
+                  <CardItem
+                    translateZ="50"
+                    className="text-xl font-bold text-white"
+                  >
+                    {work.title}
                   </CardItem>
-                  {/* <CardItem
+                  <CardItem
+                    as="p"
+                    translateZ="60"
+                    className="text-xs max-w-sm mt-2 text-neutral-300"
+                  >
+                    {work.description}
+                  </CardItem>
+                  <CardItem
+                    translateZ="100"
+                    className="w-full mt-4 h-50 sm:h-40 overflow-hidden rounded-xl"
+                  >
+                    <Image
+                      src={work.image}
+                      className="w-full object-contain rounded-xl  group-hover/card:shadow-xl"
+                      alt="thumbnail"
+                    />
+                  </CardItem>
+                  <div className="flex justify-between items-center mt-5">
+                    <CardItem className="flex gap-2" translateZ="60">
+                      {work.technologies.map((icon, idx) => (
+                        <span key={idx} className="text-base text-white shadow-xl">
+                          {icon}
+                        </span>
+                      ))}
+                    </CardItem>
+                    {/* <CardItem
                     translateZ="60"
                     as="button"
                     className="px-4 py-2 rounded-xl bg-white text-black text-xs font-bold"
                   >
                     <a href="#">Ir</a>
                   </CardItem> */}
-                </div>
-              </CardBody>
-            </CardContainer>
+                  </div>
+                </CardBody>
+              </CardContainer>
+            </div>
           ))}
         </div>
       </motion.div>
