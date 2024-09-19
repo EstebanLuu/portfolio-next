@@ -22,11 +22,11 @@ const Resume = () => {
   const renderContent = () => {
     switch (activeTab) {
       case 1:
-        return <Experience />;
+        return <Education />;
       case 2:
         return <Skills />;
       case 3:
-        return <Education />;
+        return <Experience />;
       case 4:
         return <Skills />;
       default:
