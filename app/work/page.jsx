@@ -67,8 +67,8 @@ const Work = () => {
         }}>
 
         <div className="container content py-5 xl:pb-10 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-          {works.map((work) => (
-            <div key={work.key}>
+          {works.map((work, ind) => (
+            <div key={ind}>
               <CardContainer className="inter-var py-0">
                 <CardBody className="relative group/card hover:shadow-2xl hover:shadow-accent/[0.1] bg-[#ffffff0f] border-[#3ebcc031] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border">
                   <CardItem
