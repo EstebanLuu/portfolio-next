@@ -36,7 +36,7 @@ const Resume = () => {
 
   return (
     <section className="overflow-hidden py-0 sm:py-4 xl:py-4 sm:px-0 px-5">
-      <div className="container mx-auto">
+      <div className="container mx-auto pb-5 sm:pb-0">
         <div className="w-full">
           {/* Tabs */}
           <motion.div

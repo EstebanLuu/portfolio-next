@@ -38,7 +38,7 @@ const Services = () => {
   return (
     <section className='py-0 sm:py-4  px-5 sm:px-0'>
       <div className="h4 container">Mis Servicios</div>
-      <div className='container mx-auto mt-5'>
+      <div className='container mx-auto my-5'>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
