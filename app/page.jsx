@@ -15,7 +15,7 @@ const Home = () => {
               Nicolas Luna
             </span>
             </h1>
-            <p className='max-w-[500px] mb-9 text-white/88'>
+            <p className='max-w-[500px] mb-9 pt-5 sm:pt-0 text-white/88'>
               Especialista en creación de páginas web y desarrollo digital. Optimizo tu presencia online con soluciones efectivas.
             </p>
 
