@@ -96,7 +96,7 @@ const Work = () => {
                 <div className="flex justify-between items-center mt-5">
                   <CardItem className="flex gap-2" translateZ="60">
                     {work.technologies.map((icon, idx) => (
-                      <span key={index + idx} className="text-base text-white shadow-xl">
+                      <span key={`${work.number}${techIndex}`} className="text-base text-white shadow-xl">
                         {icon}
                       </span>
                     ))}
