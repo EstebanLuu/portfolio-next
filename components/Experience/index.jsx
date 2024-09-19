@@ -11,15 +11,15 @@ const experiences = [
     role: 'Analista Funcional Académico-Arancelario',
     dates: 'jun. 2024 - actualidad',
     location: 'Buenos Aires · Híbrido',
-    description: 'Gestión y optimización de procesos académicos y arancelarios. Colaboración con diversas áreas para diseñar soluciones eficientes.',
-    skills: ['SQL', 'Microsoft Excel']
+    description: 'Gestión de procesos académicos y arancelarios, en colaboración para soluciones eficientes.',
+    skills: ['SQL', 'Office 365']
   },
   {
     company: 'Gestini',
     role: 'Desarrollador Full Stack',
     dates: 'jun. 2024 - actualidad',
     location: 'Argentina',
-    description: 'Desarrollo de software para empresas y proyectos propios en una agencia de desarrollo de software.',
+    description: 'Desarrollo de software para clientes y proyectos propios, combinando innovación y eficiencia.',
     skills: ['React.js', 'Sass', 'Redux', 'Vite.js', 'Express.js', 'MongoDB', 'Java', 'Nest.js']
   },
   {
@@ -27,7 +27,7 @@ const experiences = [
     role: 'Desarrollador Full Stack',
     dates: 'jul. 2023 - jun. 2024',
     location: 'EE.UU. · Remoto',
-    description: 'Creación de interfaces web utilizando Mongo, Express.js, React y Node.js. Optimización y mantenimiento de aplicaciones dinámicas.',
+    description: 'Desarrollo mantenimiento y optimización de plataformas web completas con múltiples integraciones.',
     skills: ['React.js','Sass', 'Node.js', 'MongoDB', 'Express.js', 'Redux', 'PostgreSQL']
   },
   {
@@ -35,7 +35,7 @@ const experiences = [
     role: 'Desarrollador Front-End',
     dates: 'jul. 2022 - sept. 2022',
     location: 'Argentina',
-    description: 'Migración de código de React.js a Vue.js. Desarrollo para una organización sin fines de lucro.',
+    description: 'Migración de código y desarrollo de soluciones web, mejorando funcionalidad y rendimiento.',
     skills: ['React.js', 'Vue.js', 'Vite.js']
   },
 
