@@ -10,7 +10,7 @@ const Social = ({ containerStyles, iconStyles }) => {
     return (
         <div className={containerStyles}>
             {socials.map((social, ind) =>
-                <a className={iconStyles} href={social.path} target="_blank" rel="noopener noreferrer">
+                <a key={ind} className={iconStyles} href={social.path} target="_blank" rel="noopener noreferrer">
                     {social.icon}
                 </a>
             )}

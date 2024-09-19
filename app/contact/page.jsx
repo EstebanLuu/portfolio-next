@@ -1,13 +1,13 @@
 'use client'
 
-import React from 'react'
+import React, {useState} from 'react'
 import { BsArrowUpRight } from 'react-icons/bs';
 import { motion } from 'framer-motion'
 import { FaCheckCircle } from 'react-icons/fa';
 
 
-const page = () => {
-  const [showAlert, setShowAlert] = React.useState(false);
+const Contact = () => {
+  const [showAlert, setShowAlert] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText('estebaanlunaaa@gmail.com.com');
@@ -63,4 +63,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;
