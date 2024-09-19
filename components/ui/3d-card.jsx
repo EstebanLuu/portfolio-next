@@ -15,7 +15,8 @@ const MouseEnterContext = createContext(undefined);
 export const CardContainer = ({
   children,
   className,
-  containerClassName
+  containerClassName,
+  key
 }) => {
   const containerRef = useRef(null);
   const [isMouseEntered, setIsMouseEntered] = useState(false);
@@ -40,7 +41,7 @@ export const CardContainer = ({
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
   };
   return (
-    (<MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
+    (<MouseEnterContext.Provider key={key} value={[isMouseEntered, setIsMouseEntered]}>
       <div
         className={cn("flex w-full items-center justify-center", containerClassName)}
         style={{
