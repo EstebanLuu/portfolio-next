@@ -15,10 +15,9 @@ const Home = () => {
               Nicolas Luna
             </span>
             </h1>
-            <p className='max-w-[500px] mb-9 pt-5 sm:pt-0 text-white/88'>
-              Especialista en creación de páginas web y desarrollo digital. Optimizo tu presencia online con soluciones efectivas.
-            </p>
-
+            <h4 className='max-w-[500px] mb-9 pt-5 sm:pt-0 text-white/88'>
+              Desarrollo de software, aplicaciones y páginas web. Soluciones tecnológicas integrales.
+            </h4>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
               <a href="/nicolasLunaFullstackCV.pdf"
                 download="CV_Nicolas_Luna.pdf" className="flex items-center gap-2 p-4 px-10 bg-accent text-primary font-extrabold text-lg rounded-full transition-all duration-300  hover:scale-105 focus:outline-none">
