@@ -29,7 +29,7 @@ export const metadata = {
   openGraph: {
     title: "Nicolas Luna | Desarrollo Web",
     description: "Descubre proyectos web innovadores y explora las habilidades de Nicolas Luna en desarrollo y diseño frontend.",
-    image: "/previewPortfolio.png",
+    image: "/favicon.ico",
     url: "http://nicolasestebanluna.com",
     type: "website",
   },
@@ -37,14 +37,14 @@ export const metadata = {
     card: "summary_large_image",
     title: "Nicolas Luna | Desarrollo Web",
     description: "Explora el portafolio de Nicolas Luna para conocer proyectos y habilidades en el desarrollo web.",
-    image: "/previewPortfolio.png",
+    image: "/favicon.ico",
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='sidebarthumb'>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="/favicon.ico" />
       <body className={PoppinsFont.variable}>
         <SpeedInsights />
         <Analytics />
