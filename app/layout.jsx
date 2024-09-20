@@ -1,5 +1,6 @@
 import { Poppins, JetBrains_Mono } from 'next/font/google';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.scss";
 
 import Header from '@/components/Header';
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
       <link rel="icon" href="/favicon.svg" sizes="any" />
       <body className={PoppinsFont.variable}>
         <SpeedInsights />
+        <Analytics />
         <PathnameProvider>
           <Header />
           <StairTransition />
