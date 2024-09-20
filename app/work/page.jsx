@@ -135,7 +135,7 @@ const Work = () => {
                     <img
                       src={work.image}
                       className="w-full object-contain rounded-xl  group-hover/card:shadow-xl"
-                      alt="thumbnail"
+                      alt="nicolas project"
                     />
                   </CardItem>
                   <div className="flex justify-between items-center mt-5">

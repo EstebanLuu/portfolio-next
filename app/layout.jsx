@@ -37,7 +37,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='sidebarthumb'>
-        <link rel="icon"   href="/favicon.ico" />
+        <link rel="icon"  href="/favicon.ico" sizes='32x32' />
       <body className={PoppinsFont.variable}>
         <SpeedInsights />
         <Analytics />
