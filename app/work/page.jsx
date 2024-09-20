@@ -5,13 +5,19 @@ import { motion } from 'framer-motion';
 import { FaJava } from "react-icons/fa";
 import { SiExpress, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSass, SiSequelize, SiVite } from "react-icons/si";
 import { v4 as uuidv4 } from 'uuid';
+import Image1 from '@/public/assets/Image1'
+import Image2 from '@/public/assets/Image2'
+import Image3 from '@/public/assets/Image3'
+import Image4 from '@/public/assets/Image4'
+import Image5 from '@/public/assets/Image5'
+import Image6 from '@/public/assets/Image6'
 
 
 // Definición del array works con tecnologías refactorizadas
 const works = [
   {
     key: uuidv4(),
-    image: 'https://cdn.discordapp.com/attachments/1285951821944455230/1285968558026653726/image.png?ex=66ec330c&is=66eae18c&hm=a8037e2a27680ab076d6acb9d74c365c68ec14884f6e3ffb25f6b2bda2b797ce&',
+    image: Image1,
     title: 'Gestini',
     description: 'ERP integral para la gestión de empresas, almacenes, usuarios y tienda en linea.',
     technologies: [
@@ -26,7 +32,7 @@ const works = [
   },
   {
     key: uuidv4(),
-    image: 'https://cdn.discordapp.com/attachments/1285951821944455230/1285968561025847378/image.png?ex=66ec330d&is=66eae18d&hm=293fdcef46f89ac7a2372609aff098781053b0dce0c4c48576dfcf3e3885b6f1&',
+    image: Image2,
     title: 'Dream Junk Academy',
     description: 'Plataforma educativa con gestión de profesores, alumnos y clases en tiempo real.',
     technologies: [
@@ -42,7 +48,7 @@ const works = [
   },
   {
     key: uuidv4(),
-    image: 'https://cdn.discordapp.com/attachments/1285951821944455230/1285985076160499712/image.png?ex=66ec426e&is=66eaf0ee&hm=91f806a95df75959ec531422919a31389227596f48ad6cbe992b9fa60c111580&',
+    image: Image3,
     title: 'Dream Junk Studio',
     description: 'Software para la gestión de proyectos, contratos y comunidad empresarial.',
     technologies: [
@@ -58,7 +64,7 @@ const works = [
   },
   {
     key: uuidv4(),
-    image: 'https://cdn.discordapp.com/attachments/1285951821944455230/1285968558748078080/image.png?ex=66ec330c&is=66eae18c&hm=54d50e91bc051e53f91cebec18b03fd46dbe08229ceebedfbbe6b9721fca8ebd&',
+    image: Image4,
     title: 'Henry Shops',
     description: 'Herramienta para crear y personalizar plantillas web de manera sencilla.',
     technologies: [
@@ -75,7 +81,7 @@ const works = [
   },
   {
     key: uuidv4(),
-    image: 'https://media.discordapp.net/attachments/1285951821944455230/1285968558307934230/image.png?ex=66ec330c&is=66eae18c&hm=5e6133f10fe88f79fbd4e171b37092efc045b912bf833217570d4b3f59e1757a&=&format=webp&quality=lossless&width=848&height=473',
+    image: Image5,
     title: 'Merlok',
     description: 'Landing page profesional para una empresa de tecnología con diseño moderno.',
     technologies: [
@@ -86,7 +92,7 @@ const works = [
   },
   {
     key: uuidv4(),
-    image: 'https://cdn.discordapp.com/attachments/1285951821944455230/1286029118487396373/image.png?ex=66ec6b73&is=66eb19f3&hm=a99e6df6de66499a451c783863d466f8505a7172a172b34687df7b143088cdb3&',
+    image: Image6,
     title: 'Conectando Empresas',
     description: 'Landing page con integración CRM Pipedrive para marketing.',
     technologies: [
