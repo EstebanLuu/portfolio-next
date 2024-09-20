@@ -1,7 +1,7 @@
 import Photo from '@/components/Photo'
 import Social from '@/components/Social'
 import { FiDownload } from 'react-icons/fi'
-
+<link rel="icon" href="/favicon.ico" sizes="any" />
 
 
 const Home = () => {
