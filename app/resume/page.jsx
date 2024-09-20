@@ -9,8 +9,8 @@ import Experience from '../../components/Experience'
 
 const tabs = [
   // { id: 1, label: 'About Me' },
-  { id: 1, label: 'Educación' },
-  { id: 2, label: 'Habilidades' },
+  { id: 1, label: 'Habilidades' },
+  { id: 2, label: 'Educación' },
   { id: 3, label: 'Experiencia' },
 ];
 
@@ -22,9 +22,9 @@ const Resume = () => {
   const renderContent = () => {
     switch (activeTab) {
       case 1:
-        return <Education />;
-      case 2:
         return <Skills />;
+      case 2:
+        return <Education />;
       case 3:
         return <Experience />;
       case 4:

@@ -2,8 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BsArrowDownRight } from 'react-icons/bs';
-import { usePathnameContext  } from '@/hooks/pathname';
+
 
 const experiences = [
   {
@@ -42,15 +41,12 @@ const experiences = [
 ];
 
 const Experience = () => {
-  const { prevPathname } = usePathnameContext();
-  const delay = prevPathname == '/resume' ? 0.5 : 1.5;
-
   return (
     <section className="flex flex-col justify-center">
       <div>
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { delay, duration: 0.4, ease: 'easeIn' } }}
+          animate={{ opacity: 1, transition: { delay: 0.5, duration: 0.4, ease: 'easeIn' } }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[30px]"
         >
           {experiences.map((exp, index) => (
