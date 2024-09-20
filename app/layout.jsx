@@ -22,21 +22,21 @@ const PoppinsFont = Poppins({
 
 
 export const metadata = {
-  title: "Nicolas Luna",
-  description: "Bienvenido a mi portafolio, donde comparto mis proyectos y el trabajo que me apasiona en el desarrollo web. Explora mis habilidades y lo que he creado hasta ahora.",
-  keywords: "Nicolas Luna, desarrollador web, portafolio, proyectos web, diseño web, desarrollo frontend, aplicaciones web",
+  title: "Nicolas Luna | Portafolio de Desarrollo Web",
+  description: "Bienvenido a mi portafolio. Soy Nicolas Luna, desarrollador web apasionado por crear soluciones digitales. Explora mis proyectos y habilidades en desarrollo web, diseño y aplicaciones frontend.",
+  keywords: "Nicolas Luna, desarrollador web, portafolio, desarrollo web, diseño frontend, aplicaciones web, proyectos digitales",
   author: "Nicolas Luna",
   openGraph: {
-    title: "Nicolas Luna",
-    description: "Explora mi portafolio y descubre proyectos web innovadores diseñados para sobresalir en el mundo digital.",
+    title: "Nicolas Luna | Desarrollo Web",
+    description: "Descubre proyectos web innovadores y explora las habilidades de Nicolas Luna en desarrollo y diseño frontend.",
     image: "/previewPortfolio.png",
     url: "http://nicolasestebanluna.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nicolas Luna",
-    description: "Descubre mis proyectos, habilidades y logros en el desarrollo web a través de mi portafolio.",
+    title: "Nicolas Luna | Desarrollo Web",
+    description: "Explora el portafolio de Nicolas Luna para conocer proyectos y habilidades en el desarrollo web.",
     image: "/previewPortfolio.png",
   },
 };
