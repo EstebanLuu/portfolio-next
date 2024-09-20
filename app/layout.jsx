@@ -8,21 +8,14 @@ import PageTransition from '@/components/PageTransition';
 import StairTransition from '@/components/StairTransition';
 import { PathnameProvider } from '@/hooks/pathname';
 
-const JetBrainsMono = JetBrains_Mono({
-  subsets: ['latin'],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  variable: '--font-jetbrainMono',
-});
-
 const PoppinsFont = Poppins({
   subsets: ['latin'],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: '--font-poppins',
 });
 
-
 export const metadata = {
-  title: "Nicolas Luna | Portafolio de Desarrollo Web",
+  title: "Nicolas Luna | Portafolio",
   description: "Bienvenido a mi portafolio. Soy Nicolas Luna, desarrollador web apasionado por crear soluciones digitales. Explora mis proyectos y habilidades en desarrollo web, diseño y aplicaciones frontend.",
   keywords: "Nicolas Luna, desarrollador web, portafolio, desarrollo web, diseño frontend, aplicaciones web, proyectos digitales",
   author: "Nicolas Luna",
@@ -44,7 +37,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className='sidebarthumb'>
-      <link rel="icon" href="/favicon.ico" />
+        <link rel="icon"   href="/favicon.ico" />
       <body className={PoppinsFont.variable}>
         <SpeedInsights />
         <Analytics />
