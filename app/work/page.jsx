@@ -5,12 +5,13 @@ import { motion } from 'framer-motion';
 import { FaJava } from "react-icons/fa";
 import { SiExpress, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSass, SiSequelize, SiVite } from "react-icons/si";
 import { v4 as uuidv4 } from 'uuid';
-import Image1 from '@/public/assets/Image1'
-import Image2 from '@/public/assets/Image2'
-import Image3 from '@/public/assets/Image3'
-import Image4 from '@/public/assets/Image4'
-import Image5 from '@/public/assets/Image5'
-import Image6 from '@/public/assets/Image6'
+import Image from "next/image";
+import Image1 from "@/public/assets/Image1.png"
+import Image2 from '@/public/assets/Image2.png'
+import Image3 from '@/public/assets/Image3.png'
+import Image4 from '@/public/assets/Image4.png'
+import Image5 from '@/public/assets/Image5.png'
+import Image6 from '@/public/assets/Image6.png'
 
 
 // Definición del array works con tecnologías refactorizadas
@@ -138,7 +139,8 @@ const Work = () => {
                     translateZ="100"
                     className="w-full mt-4 h-50 sm:h-40 overflow-hidden rounded-xl"
                   >
-                    <img
+                    <Image
+                      quality={100}
                       src={work.image}
                       className="w-full object-contain rounded-xl  group-hover/card:shadow-xl"
                       alt="nicolas project"
