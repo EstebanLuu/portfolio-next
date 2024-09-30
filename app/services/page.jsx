@@ -15,7 +15,7 @@ const services = [
   {
     num: 2,
     title: 'Desarrollo de Software',
-    description: 'Desarrollo de soluciones de software a medida para satisfacer las necesidades específicas de tu negocio, incluyendo aplicaciones de escritorio y móviles.',
+    description: 'Desarrollo de soluciones de software a medida para satisfacer las necesidades específicas, incluyendo aplicaciones de escritorio y móviles.',
     href: '/contact'
   },
   {
