@@ -10,7 +10,7 @@ const Contact = () => {
   const [showAlert, setShowAlert] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('estebaanlunaaa@gmail.com.com');
+    navigator.clipboard.writeText('estebaanlunaaa@gmail.com');
     setShowAlert(true);
 
     setTimeout(() => {
