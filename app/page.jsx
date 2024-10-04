@@ -16,7 +16,7 @@ const Home = () => {
             </span>
             </h1>
             <h4 className='max-w-[500px] mb-9 pt-5 sm:pt-0 text-white/88'>
-              Desarrollo de software, aplicaciones y páginas web. Soluciones tecnológicas integrales.
+              Desarrallador de software, aplicaciones y páginas web. Soluciones tecnológicas integrales.
             </h4>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
               <a href="/nicolasLunaFullstackCV.pdf"
